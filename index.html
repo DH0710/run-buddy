@@ -36,15 +36,33 @@
     <section>
         <div>
             <h3>Get Started Today</h3>
-            <p>Fill out this form and one of our trainers will scheeudle a consult</p>
-        <!-- Add form element-->
-        <form>
-            <label for="name">Enter full name:</label>
-            <input type="text" placeholder="Your Name" name="name" id="name" />
-        </form>
-        <form>
-            <label for =""
-        </form>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+            <!-- Add form element-->
+            <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" />
+                <label for="email">Enter email address:</label>
+                <input type="text" placeholder="email" name="email" id="email" />
+                <label for="phone">Enter telephone number:</label>
+                <input type="text" placeholder="Phone number" name="phone" id="phone" />
+            </form>
+            <p>
+                Have you worked out with a trainer before?
+                <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                <label for="trainer-yes">Yes</label>
+                <input type="radio" name="trainer-confirm" id="trainer-no" />
+                <label for="trainer-no">No</label>
+            </p>
+            <p>
+                Are you at least 18 years of age?
+                <input type="checkbox" name="age-confirm" id="age-yes" />
+                <label for="age-yes">Yes</label>
+                <input type="checkbox" name="age-confirm" id="age-no" />
+                <label for="age-no">No</label>
+            </p>
+            <button type="submit">
+                Get running!
+            </button>
         </div>
     </section>
 
@@ -68,7 +86,7 @@
         <h2>❤️ Made with love by Run Buddy.</h2>
         <div>
             <a href="#">Read Our Privacy Policy</a><br />
-            &copy; 2019 Run Buddy, Inc.
+            &copy; 2022 Run Buddy, Inc.
         </div>
     </footer>
 </body>
